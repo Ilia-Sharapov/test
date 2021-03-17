@@ -1,0 +1,133 @@
+body.menu-opened {
+    overflow-y: hidden;}
+.right-panel .top-left .header-menu {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+@media (max-width: 1199px) {
+    .nav-tabs-big .nav-item {font-size: 13px;}
+    .windows-schemes canvas {min-height: 300px;}
+}
+@media (max-width: 991px) {
+    .right-panel .top-left {width: 220px;}
+    .nav-tabs-big .nav-item {padding: 7px 3px 7px;}
+}
+@media (max-width: 767px) {
+    aside.left-panel {position: fixed;}
+    #menuToggle {display: block;}
+    .navbar,.navbar .navbar-nav {
+        width: 100%;
+    }
+    .right-panel .top-left {width: 100%;}
+    .right-panel,.open .right-panel {margin-left: 0;}
+    .right-panel .navbar-header {display: flex;justify-content: space-between;}
+    .right-panel header.header {height: 0;}
+    .right-panel header.header .top-right {display: none;}
+    .right-panel .navbar-brand {width: auto;}
+    .table-stats table td,.table-stats table th {
+        padding: .25em;
+    }
+    .right-panel .page-header {min-height: 35px;}
+    .right-panel .page-header h1 {font-size: 20px; padding: 5px 0;}
+    .right-panel .page-header .breadcrumb {padding: 5px 0;}
+    .user-profile-image {margin: 0 auto;}
+    .user-area .username {height: 40px;line-height: 1.5;}
+    .user-area .username .user-group {display: block;margin-left: 0;}
+    .fileuploaderModal .dropZone {display: none;}
+
+    .brief-steps {
+        border-radius: 0;
+        border: 0;
+    }
+    .brief-steps ul {display: block; width: 100%;}
+    .brief-steps li,.brief-steps li:first-child {border-radius: 0; border-bottom: 1px solid gray;}
+    .brief-steps li .chevron {display: none;}
+
+    .photo-reports-page span.actions {display: block;}
+    .nav-tabs-big {
+        display: block;
+    }
+    .nav-tabs-big .nav-item {
+        display: block;
+        border: 1px solid #2a323e;
+    }
+    .nav-tabs-big .nav-item:first-child,.nav-tabs-big .nav-item:last-child {border-radius: 0;}
+    .image-block {
+        width: 30%;
+    }
+    .windows-schemes {font-size: 1.5rem;}
+    .windows-schemes a {font-size: 1.5rem;}
+    .windows-schemes canvas {min-height: 250px;}
+
+    .call-buttons .btn {width: 100%;}
+}
+@media (max-width: 575px) {
+    .w-xs-100 {width: 100%;}
+    .user-area .username {display: none;}
+    .content {padding: 1.25em 0;}
+    legend {margin-bottom: 1rem;}
+    .btn {font-size: 0.9rem;}
+    .nav-panel .nav-tabs {
+        display: block;
+        padding: 0 15px;
+        width: 100%;
+        border-bottom: 0;
+    }
+    .nav-panel .nav-tabs.hidden-mobile {display: none;}
+    .nav-panel .nav-tabs .nav-item {text-align: center;}
+    .nav-panel .nav-tabs .nav-link.active {
+        border-color: #dee2e6;
+        border-radius: 0;
+    }
+    .btn-delete {display: block;}
+    .btn-delete span {display: none;}
+    .btn-delete .fa {display: inline-block;}
+    .btn-long-text {white-space: normal;}
+    .fixed-button {right: 20px; bottom: 20px;}
+    .table-form td {
+        padding: .25em;
+    }
+    .table-form-inputs {width: calc(100% - 30px);float: none;}
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .image-container .image-block {
+        width: 48%;
+        margin-right: 0;
+    }
+    .image-container .image-block a.lightbox {
+        margin: 0;
+        height: 100%;
+    }
+    .image-container .image-block a.lightbox img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .windows-schemes {font-size: 1.5rem;}
+    .windows-schemes canvas{
+        min-height: 250px;
+    }
+    .call-row .call-time {
+        height: 35px;
+        line-height: 35px;
+    }
+    .wa-link.with-icon .fa {display: inline-block;}
+    .wa-link.with-icon span {display: none;}
+}
+
+@media (max-width: 460px) {
+    .edit_material_form .btn {display: block; width: 100%; margin-bottom: 5px;}
+    .link-edit-brief {float: none; display: block;}
+    .windows-schemes canvas{
+        min-height: 200px;
+    }
+}
+@media (max-width: 360px) {
+    .windows-schemes canvas{
+        min-height: 150px;
+    }
+}
